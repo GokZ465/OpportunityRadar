@@ -1,0 +1,38 @@
+# Local OutSystems MCP and IDE configuration
+/.mcp.json
+/.vscode/mcp.json
+/.kiro/
+/.github/copilot-instructions.md
+
+# Credentials and local environment files
+.env
+.env.*
+!.env.example
+**/secrets/
+**/credentials/
+**/*secret*
+**/*credential*
+*.pem
+*.p12
+*.key
+local.settings.json
+*.local.json
+
+# Unreviewed binary model exports; review before intentionally adding one
+*.oml
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+
+# Common generated artifacts
+node_modules/
+dist/
+coverage/
+bin/
+obj/
+.vs/
